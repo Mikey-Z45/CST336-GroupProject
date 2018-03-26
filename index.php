@@ -22,7 +22,7 @@ include "inc/functions.php";
 <html>
     <head>
         <meta charset="utf-8" />
-        <title> Homework 2 </title>
+        <title> Team Project </title>
         <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
@@ -33,41 +33,10 @@ include "inc/functions.php";
             <hr>
         </header>
 
-    <div id="theForm" class="jumbotron">
-          <form method="post">
-          	 Enter some message : <input type="text" name="message" maxlength="15" value="" /> <br /><br />
-          	  Select the amount you want to be shown: 
-          	   <select name="amount">
-          	   	  <option value="5"> 5 </option>
-          	   	  <option value="10"> 10 </option>
-          	   	  <option value="15"> 15 </option>
-          	   	  <option value="20" selected> 20 </option>
-          	   	  <option value="25"> 25 </option>
-          	   	  <option value="52"> Show All </option>
-          	   </select>
-          	   <br /><br />
-          	  Would you like to see the output in color or greyscale: 
-          	  Color <input type="radio" name="type" value="color">
-          	  Greyscale <input type="radio" name="type" value="grey">
-          	  <br /><br />
-          	  Display layout of the your search:<br />
-          	  Listed <input type="radio" name="layout" value="list">
-          	  Gallery <input type="radio" name="layout" value="gall">
-          	    <br /><br />
-          	     Select a list/gallery size: 
-          	   <select name="outputSize">
-          	   	  <option value="1"> 1 Column </option>
-          	   	  <option value="2" selected> 2 Columns </option>
-          	   	  <option value="3"> 3 Columns </option>
-          	   	  <option value="4"> 4 Columns </option>
-          	   </select>
-          	   <br /><br />
-          	 <input type="checkbox" name="displayForm" value="yes" checked> Display Form Again
-          	    <br /><br />
-          	  <input type="submit" class="btn btn-info" value="Display!!" name="submit" />
-          </form>
-        
-          </div>
+        <div id="options" class="jumbotron">
+            <a href="paystub.php"><button type="button" class="btn btn-outline-info">Paystub</button></a><a <a href="Logout.php">><button type="button" class="btn btn-outline-info">Logout</button></a>
+            <a href="paystub.php"><button type="button" class="btn btn-outline-info">Paystub</button></a><a <a href="Logout.php">><button type="button" class="btn btn-outline-info">Logout</button></a>
+        </div>
           
            <br />
         </main>

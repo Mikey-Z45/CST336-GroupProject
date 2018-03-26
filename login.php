@@ -14,7 +14,6 @@
         if ($password == "homework") {
             $_SESSION["username"] = $user;
             // If I take no action, I will go right back to login
-            // What do I want to do? Go to player
             header('Location: '. 'index.php');
             exit();
         }
