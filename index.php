@@ -34,8 +34,10 @@ include "inc/functions.php";
         </header>
 
         <div id="options" class="jumbotron">
-            <a href="paystub.php"><button type="button" class="btn btn-outline-info">Paystub</button></a><a <a href="Logout.php">><button type="button" class="btn btn-outline-info">Logout</button></a>
-            <a href="paystub.php"><button type="button" class="btn btn-outline-info">Paystub</button></a><a <a href="Logout.php">><button type="button" class="btn btn-outline-info">Logout</button></a>
+            <a href="paystub.php"><button type="button" class="btn btn-outline-info">Paystub</button></a><a <a href="login.php">><button type="button" class="btn btn-outline-info">Login</button></a>
+            <a href="paystub.php"><button type="button" class="btn btn-outline-info">Paystub</button></a><a <a href="logout.php">><button type="button" class="btn btn-outline-info">Logout</button></a>
+            
+            <!--should Logout bottom go in another page? after login.. Currently both bottms go to the same login file-->
         </div>
           
            <br />
