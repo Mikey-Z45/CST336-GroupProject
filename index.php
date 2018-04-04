@@ -34,8 +34,8 @@ include "inc/functions.php";
         </header>
 
         <div id="options" class="jumbotron">
-            <a href="paystub.php"><button type="button" class="btn btn-outline-info">Paystub</button></a><a <a href="Logout.php">><button type="button" class="btn btn-outline-info">Logout</button></a>
-            <a href="paystub.php"><button type="button" class="btn btn-outline-info">Paystub</button></a><a <a href="Logout.php">><button type="button" class="btn btn-outline-info">Logout</button></a>
+            <a href="admin.php"><button type="button" class="btn btn-outline-info">Admin Page</button></a><a <a href="logout.php">><button type="button" class="btn btn-outline-info">Logout</button></a>
+            <a href="paystub.php"><button type="button" class="btn btn-outline-info">Paystub</button></a><a <a href="logout.php">><button type="button" class="btn btn-outline-info">Logout</button></a>
         </div>
           
            <br />

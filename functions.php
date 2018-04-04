@@ -20,12 +20,28 @@
         
         $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
         
-        $sql = "SELECT `deviceName`, `deviceType`, `price`, `status` 
-                FROM `device` 
-                ORDER BY `deviceName` ASC";
         
-        $stmt = $dbConn -> prepare ($sql);
-        $stmt -> execute ();
+        
+        
+        // this sql code is for accessing the database tables and such
+         echo '<div class="container" style="centered" >';
+        //if the increasing alphabetically is selected
+        if ($sort == "inc" and $button == true) {
+            $sql = "SELECT `deviceName`, `deviceType`, `price`, `status` 
+                    FROM `device` 
+                    ORDER BY `deviceName` ASC
+                    LIMIT 0, 50 ";
+        
+            $stmt = $dbConn -> prepare ($sql);
+            $stmt -> execute ();
+            
+            echo '<table style="centered">';
+            while ($row = $stmt -> fetch())  {
+                echo  '<tr>' . '<td>' . $row['deviceName'] . "</td>" . " " . '<td>' . $row['deviceType'] . '</td>'  . " " . '<td>' . $row['price'] . '</td>'  . " " . '<td>' .  $row['status'] . '</td>'  . '</tr>';
+            }
+            echo '</table>';
+        }
+        echo '</div>';
             
         // create functions here since the database is now initialized
         

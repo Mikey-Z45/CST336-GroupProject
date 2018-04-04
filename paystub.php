@@ -35,7 +35,9 @@ include "functions.php";
         </header>
 
         <div id="options" class="jumbotron">
-            echo paystub;
+        <?php
+           displayPay();
+        ?>
         </div>
           
            <br />
