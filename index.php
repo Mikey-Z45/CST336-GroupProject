@@ -1,5 +1,5 @@
 <?php
-include "inc/functions.php";
+include "functions.php";
 ?>
 
 <?php
@@ -34,15 +34,10 @@ include "inc/functions.php";
         </header>
 
         <div id="options" class="jumbotron">
-<<<<<<< HEAD
-            <a href="admin.php"><button type="button" class="btn btn-outline-info">Admin Page</button></a><a <a href="logout.php">><button type="button" class="btn btn-outline-info">Logout</button></a>
-            <a href="paystub.php"><button type="button" class="btn btn-outline-info">Paystub</button></a><a <a href="logout.php">><button type="button" class="btn btn-outline-info">Logout</button></a>
-=======
-            <a href="paystub.php"><button type="button" class="btn btn-outline-info">Paystub</button></a><a <a href="login.php">><button type="button" class="btn btn-outline-info">Login</button></a>
-            <a href="paystub.php"><button type="button" class="btn btn-outline-info">Paystub</button></a><a <a href="logout.php">><button type="button" class="btn btn-outline-info">Logout</button></a>
+            <a href="paystub.php"><button type="button" class="btn btn-outline-info">Paystub</button></a><a <a href="requests.php">><button type="button" class="btn btn-outline-info">Requests</button></a>
+            <a href="admin.php"><button type="button" class="btn btn-outline-info">Admin Page (Admin Only)</button></a><a <a href="logout.php">><button type="button" class="btn btn-outline-info">Logout</button></a>
             
             <!--should Logout bottom go in another page? after login.. Currently both bottms go to the same login file-->
->>>>>>> 0c12dc3925f5f0e400fbfae10c5fa05f6676fa8f
         </div>
           
            <br />
